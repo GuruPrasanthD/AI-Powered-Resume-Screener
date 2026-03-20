@@ -1,9 +1,0 @@
-Flask
-flask-cors
-spacy
-textblob
-scikit-learn
-numpy
-pdfplumber
-PyPDF2
-gunicorn
