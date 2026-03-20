@@ -26,7 +26,7 @@ import numpy as np
 app = Flask(__name__, template_folder='templates', static_folder='static')
 CORS(app)
 
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_sm")
 
 UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
